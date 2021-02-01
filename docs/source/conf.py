@@ -34,6 +34,7 @@ import sphinx_rtd_theme
 extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.autosummary',
               'sphinx.ext.doctest',
+              'sphinx.ext.intersphinx',
               'sphinx.ext.mathjax',
               'sphinxcontrib.httpdomain',
               'numpydoc']

@@ -1,7 +1,6 @@
 GetAdminToken Request
 ====================================
 
-
 .. http:get:: /GetAdminToken/
 
    This get request generates an admin token for restbase-server.  
