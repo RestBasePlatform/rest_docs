@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'RestBase'
-copyright = '2021, vebster'
-author = 'vebster'
+copyright = '2021, RestBase'
+author = 'Maxim Yurchenko'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = '0.1_alpha'
 
 
 # -- General configuration ---------------------------------------------------
@@ -35,6 +35,7 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.autosummary',
               'sphinx.ext.doctest',
               'sphinx.ext.intersphinx',
+              'sphinx.ext.githubpages',
               'sphinx.ext.mathjax',
               'sphinxcontrib.httpdomain',
               'numpydoc']
