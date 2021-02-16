@@ -1,15 +1,16 @@
-GrantTableAccess Request
+ChangeLocalTableName Request
 ====================================
 
 
-.. http:post:: /GrantTableAccess/
-   This post request grants access to table for token. 
+.. http:post:: /Table/
+
+   This post request changes local table name.
 
    .. note::
 
       You should specify one of parametrs full table data(database, folder, table) or a local table name.
 
-      **If defined both - local table name will be ignored.**
+      **If defined both - full table data(database, folder, table) will be ignored.**
 
 
    **Example request**:
@@ -20,9 +21,26 @@ GrantTableAccess Request
       Host: example.com
       Accept: application/json
 
+      [
+        "table" : {
+            "local_table_name": "some-loca-name"
+        }, 
+        "new_local_table_name": "some-new-name"
+      ]
+
+      OR 
+
+      [
+        "table" : {
+            "database": "some-loca-name", 
+            "folder": "some-folder", 
+            "table": "some-table"
+        }, 
+        "new_local_table_name": "some-new-name"
+      ]
+
    :reqheader admin_token: Admin token. 
    
-   :query user_token: Token to grant access for.
    :query local_table_name: Local name of table.
    :query database: *part of full table path* Local name of table database.
    :query folder: *part of full table path* Folder name in a database where a table is located. 
@@ -38,13 +56,14 @@ GrantTableAccess Request
 
       [
         {
-            "status": "success"
+            "status": "success", 
+            "new_table_name": "some-new-name"
         }
       ]
 
    :statuscode 200: No errors.
-   :statuscode 409: Token already exists. 
+   :statuscode 409: Table already exists. 
    :statuscode 403: Access denied. Check admin token in a header. 
-   :statuscode 400: Bad request. Check request body.
+   :statuscode 400: Bad request. Check request body or headers.
    :statuscode 404: Error. Check error in a respsonse body.
 

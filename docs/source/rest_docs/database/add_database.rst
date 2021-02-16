@@ -1,7 +1,7 @@
 AddDatabase Request
 ====================================
 
-.. http:post:: /AddDatabase/(str:local_database_name)/(str:ip)/(str:port)/(str:database)/(str:username)/(str:password)/(str:base_type)
+.. http:put:: /Database
 
    This post request adds a new database(includes tables/folders) to API.
 
@@ -13,7 +13,7 @@ AddDatabase Request
 
    .. sourcecode:: http
 
-      POST /AddDatabase HTTP/1.1
+      PUT /Database HTTP/1.1
       Host: example.com
       Accept: application/json
     
@@ -33,7 +33,7 @@ AddDatabase Request
 
       HTTP/1.1 200 OK
       Vary: Accept
-      Content-Type: text/javascript
+      Content-Type: application/json
 
       [
         {
@@ -44,5 +44,5 @@ AddDatabase Request
 
    :statuscode 200: No errors.
    :statuscode 403: Access denied. Check admin token in a header. 
-   :statuscode 400: Bad request. Check request body.
+   :statuscode 400: Bad request. Check request body or headers.
    :statuscode 500: Error. Check error in a respsonse body.

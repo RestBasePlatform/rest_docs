@@ -5,9 +5,11 @@ SOME DOC
 
 .. toctree::
 
+   database/index
+   table/index
+
    get_admin_token
    generate_user_token
    grant_table_access
-   add_database
-   get_database_data
    get_data_request
+   filters
