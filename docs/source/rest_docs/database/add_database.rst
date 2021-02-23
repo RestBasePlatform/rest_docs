@@ -3,7 +3,7 @@ AddDatabase Request
 
 .. http:put:: /Database
 
-   This post request adds a new database(includes tables/folders) to API.
+   This put request adds a new database(includes tables/folders) to API.
 
    .. note::
 

@@ -4,11 +4,11 @@ ChangeLocalTableName Request
 
 .. http:post:: /Table/
 
-   This post request changes local table name.
+   This post request changes a local table name.
 
    .. note::
 
-      You should specify one of parametrs full table data(database, folder, table) or a local table name.
+      You should specify one of: full table data(database, folder, table) or a local table name.
 
       **If defined both - full table data(database, folder, table) will be ignored.**
 

@@ -3,7 +3,7 @@ GetDatabaseData Request
 
 .. http:get:: /Database
 
-   This post request returns database connection data (*except password*)
+   This get request returns database connection data (*except password*)
 
    **Example request**:
 

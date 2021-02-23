@@ -11,8 +11,10 @@ To get started, you need to download the docker image from the docker hub and ru
    docker run -p 54541:54541 restbase/restbase-server 
 
 After starting the docker, you need to generate an administrator token using :doc:`rest_docs/get_admin_token`.
-Description of the next steps in :doc:`rest_docs/index`.
+Description of the next steps in :doc:`quickstart`.
 
 .. toctree::
 
+  quickstart
   rest_docs/index
+  
