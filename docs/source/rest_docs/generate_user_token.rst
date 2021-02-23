@@ -4,7 +4,7 @@ GenerateUserToken Request
 
 .. http:put:: /GenerateUserToken/
 
-   This get request generates an admin token for restbase-server.  
+   This get request generates an user token for restbase-server.  
 
    **Example request**:
 

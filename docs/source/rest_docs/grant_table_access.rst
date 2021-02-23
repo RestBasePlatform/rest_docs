@@ -3,6 +3,7 @@ GrantTableAccess Request
 
 
 .. http:post:: /GrantTableAccess/
+
    This post request grants access to table for token. 
 
    .. note::
