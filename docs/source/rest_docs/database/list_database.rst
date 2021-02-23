@@ -1,7 +1,7 @@
-GetDatabaseData Request
+ListDatabase Request
 ====================================
 
-.. http:get:: /GetDatabaseData/(str:local_database_name)
+.. http:get:: /Database/list
 
    This post request returns database connection data (*except password*)
 
@@ -9,13 +9,11 @@ GetDatabaseData Request
 
     .. sourcecode:: http
 
-      GET /GetDatabaseData HTTP/1.1
+      GET /Database/List HTTP/1.1
       Host: example.com
       Accept: application/json
     
    :reqheader admin_token: Admin token. 
-
-   :query local_database_name: Local name of a database.
 
    **Example response**:
 
@@ -23,17 +21,17 @@ GetDatabaseData Request
 
       HTTP/1.1 200 OK
       Vary: Accept
-      Content-Type: text/javascript
+      Content-Type: application/json
 
-      [
-        {
-            "status": "success", 
-            "ip": "localhost", 
-            "port": "1234", 
-            "username": "user", 
-            "local_name": "local_database_name"
-        }
-      ]
+      {
+        "List": [
+            "database-local-name-1",
+            "database-local-name-2",
+            "database-local-name-3",
+            "database-local-name-4"
+        ],
+        "status": "success"
+    }
 
    :statuscode 200: No errors.
    :statuscode 403: Access denied. Check admin token in a header. 
