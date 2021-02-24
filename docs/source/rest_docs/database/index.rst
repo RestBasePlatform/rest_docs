@@ -3,7 +3,7 @@ Database Requests
 
 To add the database using :doc:`add_database`.
 
-To make sure that the database is added, use :doc:`list_database`.
+To make sure that the database was added, use :doc:`list_database`.
 
 After adding the database, you can check the list of all read tables using :doc:`../table/index`.
 
