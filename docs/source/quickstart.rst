@@ -6,6 +6,10 @@ Quickstart
 First steps
 =================
 
+   .. note::
+
+        Python example you can find here: https://github.com/RestBaseApi/restbase/blob/dev/0.1/examples/python/example.py
+
 After starting the docker, you need to generate an administrator token using.
 
 .. code-block:: bash
