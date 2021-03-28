@@ -15,3 +15,4 @@ After starting the docker, you need to generate an administrator token using :do
 .. toctree::
 
   rest_docs/index
+  changelog

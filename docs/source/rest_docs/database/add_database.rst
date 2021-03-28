@@ -25,7 +25,7 @@ AddDatabase Request
    :query database: Database name on server.
    :query username: Database username.
    :query password: Password of the user from a `username` field.
-   :query base_type: Database type. Supported values: 'postgres'
+   :query base_type: Database type. Supported values: 'postgres', 'mysql'
 
    **Example response**:
 
