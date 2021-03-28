@@ -13,11 +13,12 @@ v0.1.1
 Fixes
 -----
 
+* Fix access from any token to rename table in 'PostTable' request
 
 New Features
 ------------
 
-* Add my sql suppot (`#31 <https://github.com/RestBaseApi/restbase/commit/21ec6007511d6395d1beefc05556157b45565bb7>`_.)
+* Add my sql suppot (`#31 <https://github.com/RestBaseApi/restbase/commit/21ec6007511d6395d1beefc05556157b45565bb7>`_)
 
 Other Changes
 -------------
