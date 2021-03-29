@@ -18,7 +18,13 @@ Fixes
 New Features
 ------------
 
-* Add my sql suppot (`#31 <https://github.com/RestBaseApi/restbase/commit/21ec6007511d6395d1beefc05556157b45565bb7>`_)
+* Add MySQL suppot (`#31 <https://github.com/RestBaseApi/restbase/commit/21ec6007511d6395d1beefc05556157b45565bb7>`_)
+* Add Logs 
 
 Other Changes
 -------------
+
+
+Code changes
+-------------
+
