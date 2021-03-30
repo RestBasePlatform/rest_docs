@@ -2,9 +2,6 @@
 Changelog
 *********
 
-develop
-======
-
 v0.1.1
 ======
 
@@ -19,7 +16,7 @@ New Features
 ------------
 
 * Add MySQL suppot (`#31 <https://github.com/RestBaseApi/restbase/commit/21ec6007511d6395d1beefc05556157b45565bb7>`_)
-* Add Logs 
+* Add logging (`#37 <https://github.com/RestBaseApi/restbase/pull/37>`_)
 
 Other Changes
 -------------
@@ -27,4 +24,4 @@ Other Changes
 
 Code changes
 -------------
-
+* Add healthcheck condiction for databases in tests
