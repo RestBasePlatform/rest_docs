@@ -13,3 +13,4 @@ SOME DOC
    grant_table_access
    get_data_request
    filters
+   logs

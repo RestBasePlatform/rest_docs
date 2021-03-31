@@ -15,12 +15,9 @@ Fixes
 New Features
 ------------
 
-* Add MySQL suppot (`#31 <https://github.com/RestBaseApi/restbase/commit/21ec6007511d6395d1beefc05556157b45565bb7>`_)
-* Add logging (`#37 <https://github.com/RestBaseApi/restbase/pull/37>`_)
-
-Other Changes
--------------
-
+* Added MySQL suppot (`#31 <https://github.com/RestBaseApi/restbase/commit/21ec6007511d6395d1beefc05556157b45565bb7>`_)
+* Added logging (`#37 <https://github.com/RestBaseApi/restbase/pull/37>`_)
+* Added rest access to logs :doc:`rest_docs/logs`
 
 Code changes
 -------------
