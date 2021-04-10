@@ -23,6 +23,7 @@ Description of the next steps in :doc:`quickstart`.
 
 .. toctree::
 
+  changelog
   quickstart
   rest_docs/index
   
