@@ -24,3 +24,4 @@ Follow :doc:`../quickstart` for more detailed information.
    generate_user_token
    grant_table_access
    get_data_request
+   logs
