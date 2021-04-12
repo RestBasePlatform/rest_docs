@@ -22,3 +22,21 @@ New Features
 Code changes
 -------------
 * Add healthcheck condiction for databases in tests
+
+
+
+v0.1.2
+======
+
+:Date: April, 2021
+
+Fixes
+-----
+
+* Fixed 500 error when re-requesting to create a token
+
+New Features
+------------
+
+Code changes
+-------------
