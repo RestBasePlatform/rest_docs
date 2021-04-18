@@ -22,7 +22,7 @@ copyright = '2021, RestBase'
 author = 'Maxim Yurchenko'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1_alpha'
+release = '0.1.2'
 
 
 # -- General configuration ---------------------------------------------------
