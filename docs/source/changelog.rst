@@ -35,7 +35,7 @@ Fixes
 
 * Fixed 500 error when re-requesting to create a token
 
-v0.1.2
+v0.1.3
 ======
 
 :Date: April, 2021
@@ -44,4 +44,3 @@ Fixes
 -----
 
 * Fixed 500 error when one database transaction failed. (`#46 <https://github.com/RestBaseApi/restbase/pull/46>`_)
-* 
