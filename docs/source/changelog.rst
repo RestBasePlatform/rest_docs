@@ -35,8 +35,13 @@ Fixes
 
 * Fixed 500 error when re-requesting to create a token
 
-New Features
-------------
+v0.1.2
+======
 
-Code changes
--------------
+:Date: April, 2021
+
+Fixes
+-----
+
+* Fixed 500 error when one database transaction failed. (`#46 <https://github.com/RestBaseApi/restbase/pull/46>`_)
+* 
