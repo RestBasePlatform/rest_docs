@@ -44,5 +44,5 @@ sphinxcontrib-serializinghtml==1.1.4
 toml==0.10.2
 typing-extensions==3.7.4.3
 ujson==1.35
-urllib3==1.25.11
+urllib3==1.26.5
 watchdog==0.10.4
